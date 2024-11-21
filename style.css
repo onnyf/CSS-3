@@ -1,0 +1,78 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+
+}
+
+nav{
+
+display: flex;
+justify-content: space-between;
+height: 70px;                                                                                                                                                                                                                                                                                                                                                     
+align-items: center;
+position: sticky;
+background-color: peachpuff;
+top: 0;
+
+
+
+}
+
+nav .first img{
+    height: 50px;
+
+}
+
+
+.icon{
+
+    font-size: 40px;
+    color: rgb(226, 60, 9);
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+
+}
+
+.icon :hover{
+    font-size: 50px;
+
+}
+
+
+.secondnav{
+
+height: 50px;
+width: 100px;
+background-color: blue;
+
+}
+
+
+.div{
+
+height: 200px;
+width: 200px;
+background-color: wheat;
+position: relative;
+bottom: 600px;
+left: 1000px;
+border: 1px solid;
+}
+
+.child{
+height: 50px;
+width: 50px;
+background-color: green;
+border-radius: 50px;
+position: absolute;
+left: 75px;
+top: 50px;
+
+
+
+
+}
